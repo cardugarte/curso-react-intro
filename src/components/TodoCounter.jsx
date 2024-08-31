@@ -1,8 +1,10 @@
+import '../App.css';
 
-function TodoCounter() {
+
+function TodoCounter({ total, completed }) {
   return (
-    <h1>
-      Has completado 3 de 5 TODOs
+    <h1 className='count__container'>
+      Has completado {completed} de {total} TODOs
     </h1>
   );
 }

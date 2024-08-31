@@ -1,9 +1,13 @@
+import '../App.css';
 
-function CreateTodoButton() {
+
+function CreateTodoButton({texto}) {
   return (
-    <button>
-      Crear Nuevo Todo
+  <div className="button__container">
+    <button className='button'>
+      {texto}
     </button>
+  </div>
   );
 }
 

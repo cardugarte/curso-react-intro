@@ -1,9 +1,11 @@
-function TodoItem() {
+import '../App.css'
+
+function TodoItem({text, completed}) {
   return (
-    <li>
-      <span>V</span>
-      <p>Tomar cafe al levantarse</p>
-      <span>X</span>
+    <li className='item__container'>
+      <span className='check'>V</span>
+      <p className='text'>{text}</p>
+      <span className='delete'>X</span>
     </li>
   );
 }

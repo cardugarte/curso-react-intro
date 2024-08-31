@@ -1,8 +1,9 @@
+import '../App.css';
 
 function TodoSearch() {
   return (
-    <div>
-      <input placeholder="Cortar Cebolla" />
+    <div className='search__container'>
+      <input className='search' placeholder="Cortar Cebolla" />
     </div>
   );
 }
