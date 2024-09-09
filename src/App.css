@@ -74,7 +74,7 @@
 }
 
 .check {
-  color: greenyellow;
+  color: gray;
   font-weight: 700;
   font-size: 20px;
   padding: 20px;
@@ -101,4 +101,8 @@
     1px -1px 0 #000,  /* Top-right */
     -1px 1px 0 #000,  /* Bottom-left */
     1px 1px 0 #000;   /* Bottom-right */
+}
+
+.completed {
+  color: green;
 }
